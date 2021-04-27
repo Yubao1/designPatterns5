@@ -7,7 +7,7 @@ package com.zhulu.test;
 public class Test {
 
 	public static void main(String[] args) {
-        Send send = new Send();
+        ISend send = new Send();
         Reciever recieverA = new ReceiverA("A");
         Reciever recieverB = new ReceiverA("B");
         Reciever recieverC = new ReceiverA("C");
